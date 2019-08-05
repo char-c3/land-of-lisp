@@ -40,3 +40,6 @@
     (gethash 'zoink 
         (car 
             (aref foo 2))))
+
+(p 
+    (nth 1 '(foo bar baz)))
